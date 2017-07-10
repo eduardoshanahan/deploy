@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  shell:
+    image: eduardoshanahan/deploy:latest
+    container_name: eduardoshanahan_deploy
+    entrypoint:
+      - /bin/sh
